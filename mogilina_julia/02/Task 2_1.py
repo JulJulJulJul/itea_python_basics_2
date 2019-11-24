@@ -7,6 +7,7 @@ for i in new_list:
         number_of_x += 1  
     elif i == 'o':
         number_of_o += 1
+        
 if number_of_x == number_of_o:  # number of x and o comparing
     print(True)
 else:
